@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "technica",
+  "version": "${version}",
+
+  "name": "Technica",
+  "description": "A tech mod for fabric",
+  "authors": [
+    "santisnotboss"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/technica/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.technica.Technica"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
