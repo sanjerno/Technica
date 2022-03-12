@@ -8,7 +8,7 @@ import net.minecraft.util.registry.Registry;
 
 public class Technica implements ModInitializer {
 
-    public static final Item FABRIC_ITEM = new Wrench(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item FABRIC_ITEM = new Wrench(new Item.Settings().group(ItemGroup.MISC).maxCount(1));
 
     @Override
     public void onInitialize() {
